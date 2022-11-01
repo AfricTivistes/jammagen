@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "#FreeSenegal - Pour nos morts, rendez leur hommage."
+title = "Jàam a Gën - Initiative citoyenne contre le 3e mandat au Sénégal"
 theme = "dream"
 
 [copyright]
@@ -16,31 +16,31 @@ theme = "dream"
 
 [twitter]
   card = ["img/background.jpg"]
-  site = "hommage.free-senegal.org"
+  site = "jammagen.netlify.app"
   creator = "@AFRICTIVISTES"
   image = ["img/background.jpg"]
 
 [params]
   favicon = "/img/logo.svg"
-  description = "FreeSenegal mur d'hommage, pour rendre hommage à nos morts."
+  description = "Initiative citoyenne contre le 3e mandat au Sénégal"
   images = ["img/background.jpg"]
   background = "#f7f7f7"
-  #backgroundImage = "/me/background.jpg"
+  backgroundImage = "img/me/background.jpg"
   linkColor = "seagreen"
 
   # dark mode
   defaultDark = false
-  backgroundDark = "black"
-  #backgroundImageDark = "/me/background-dark.jpg"
-  darkLinkColor = "darkseagreen"
+  backgroundDark = "#020303"
+  backgroundImageDark = "img/me/background-dark.jpg"
+  darkLinkColor = "#fff"
   darkNav = true
   dark404 = true
 
-  author = "FreeSenegal"
+  author = ""
   # description = ""
   avatar = "/img/avatar.png"
   # headerTitle = ""
-  motto = "Pour nos morts, rendez leur hommage."
+  motto = "Initiative citoyenne contre le 3e mandat au Sénégal"
   # categoriesLimitInHeader = 6 # deprecated
   # headerBottomText = "" # deprecated
 
@@ -54,7 +54,7 @@ theme = "dream"
   # LEANCLOUD_APP_ID = ""
   # LEANCLOUD_APP_KEY = ""
 
-  email = "g1enyy0ung@gmail.com"
+  email = "info@africtivistes.org"
   # twitter = ""
   # facebook = ""
   # instagram = ""
@@ -64,7 +64,7 @@ theme = "dream"
   # stackoverflow = ""
   # codepen = ""
 
-  siteStartYear = 2016
+  siteStartYear = 2022
 
   # favicon = "/favicon.ico"
 

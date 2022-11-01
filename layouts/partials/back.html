@@ -1,24 +1,18 @@
 {{ partial "header.html" . }}
 
 <div class="ui relaxed grid dream-grid dream-back">
-  {{ $headless := .Site.GetPage "/about" }}
-  {{ $aboutPages := $headless.Resources.ByType "page" }}
-  {{ range $aboutPages }}
-  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-    <article class="ui segment markdown-body">
-      <h3 class="ui header">{{ .Title }}</h3>
-      {{ .Content | emojify }}
-    </article>
-  </div>
-  {{ end }}
 
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment">
-      <h3 class="ui header">Rendre hommage</h3>
+      <h3 class="ui header">Signez la lettre ouverte</h3>
       <form class="email-form" name="tributemessage" method="POST" data-netlify="true" data-netlify-recaptcha="true">
         <label for="tribute">Message<span>*</span></label>
         <div>
           <textarea rows="4" cols="35" name="tribute" style="width: 100%;" id="tribute" required></textarea>
+        </div>
+        <div>
+          <label for="author">Organisation</label>
+          <input type="text" name="organisation" style="width: 100%;" placeholder="optionnel" id="organisation" />
         </div>
         <div>
           <label for="author">Auteur</label>
@@ -39,6 +33,17 @@
       </form>
     </article>
   </div>
+
+  {{ $headless := .Site.GetPage "/about" }}
+  {{ $aboutPages := $headless.Resources.ByType "page" }}
+  {{ range $aboutPages }}
+  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article class="ui segment markdown-body">
+      <h3 class="ui header">{{ .Title }}</h3>
+      {{ .Content | emojify }}
+    </article>
+  </div>
+  {{ end }}
 
   {{ if findRE "posts/.+" .RelPermalink }}
   {{ else }}

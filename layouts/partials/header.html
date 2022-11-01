@@ -12,6 +12,11 @@
       {{- if .Site.Params.headerTitle -}}{{ .Site.Params.headerTitle }}{{ else }}{{ .Site.Params.author }}{{ T "blogAlias" }}{{- end -}}
       <div class="sub header">
         {{- .Site.Params.motto -}}
+        {{ $paginator := (where .Site.RegularPages "Section" "!=" "about") }}
+        <div><strong>{{len $paginator}}</strong> personnes ont signé</div>
+        <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
+          Signer cette lettre
+        </a>
       </div>
     </h1>
 
@@ -26,9 +31,6 @@
       </a>
       <a class="item" href="{{ "tags" | relLangURL }}">
         <i class="tags icon" title="{{ T "allTags" }}"></i>
-      </a>
-      <a class="dream-flip-toggle ui label green" href="#">
-        Appuyez ici pour rendre hommage
       </a>
     </article>
 
