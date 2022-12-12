@@ -1,23 +1,23 @@
 ---
 title: Lettre ouverte au Président Macky Sall
-date: 2021-03-12T08:25:11Z
-lastmod: 2021-03-12T08:25:11Z
+date: 2021-03-12T08:25:11.000+00:00
+lastmod: 2021-03-12T08:25:11.000+00:00
 author: Jàam a Gën
-avatar: /img/avatar.png
+avatar: "/img/avatar.png"
 authorlink: https://jammagen.site
-cover: /img/avatar.png
+cover: "/img/avatar.png"
 categories:
-  - Organisation
+- Organisation
 tags:
-  - Lettre ouverte
----
+- Lettre ouverte
 
+---
 À Son Excellence Monsieur Macky Sall
 **Président de la République du Sénégal**
 
 <!--more-->
 
-*[Télécharger](https://www.africtivistes.com/static/0c77f9c8131adcd35837d6e96032e27f/LETTRE-OUVERTE-A-MACKY-SALL.pdf)*
+[_Télécharger_](https://www.africtivistes.com/static/0c77f9c8131adcd35837d6e96032e27f/https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
 
 ## Pour le respect de la Constitution et de la parole donnée
 
