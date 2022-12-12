@@ -17,7 +17,7 @@ tags:
 
 <!--more-->
 
-[_Télécharger_](https://www.africtivistes.com/static/0c77f9c8131adcd35837d6e96032e27f/https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
+[_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
 
 ## Pour le respect de la Constitution et de la parole donnée
 
