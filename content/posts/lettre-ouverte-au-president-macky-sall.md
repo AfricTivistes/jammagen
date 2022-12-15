@@ -1,5 +1,5 @@
 ---
-title: Lettre ouverte au Président Macky Sall
+title: Lettre ouverte Société Civile à Son Excellence Monsieur Macky Sall
 date: 2021-03-12T08:25:11.000+00:00
 lastmod: 2021-03-12T08:25:11.000+00:00
 author: Jàam a Gën
