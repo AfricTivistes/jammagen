@@ -41,7 +41,7 @@ Monsieur le Président, de grâce respectez la Constitution, respectez votre par
 
 ndax « Jamm Gen troisième mandat ».
 
-### Ont signé cette lettre ouverte
+### Ont signé cette lettre ouverte :
 
 **AfrikaJom Center, Y'en A Marre,**
 
