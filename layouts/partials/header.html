@@ -12,7 +12,7 @@
       {{- if .Site.Params.headerTitle -}}{{ .Site.Params.headerTitle }}{{ else }}{{ .Site.Params.author }}{{ T "blogAlias" }}{{- end -}}
       <div class="sub header">
         {{- .Site.Params.motto -}}
-        {{ $paginator := (where .Site.RegularPages "Section" "!=" "about") }}
+        {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
         <div><strong>{{len $paginator}}</strong> personnes ont signé</div>
         <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
           Signer cette lettre
