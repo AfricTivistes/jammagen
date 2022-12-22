@@ -2,7 +2,7 @@
 title: Lettre ouverte Société Civile à Son Excellence Monsieur Macky Sall
 date: 2022-11-27T08:25:11.000+00:00
 lastmod: 2022-11-27T08:25:11.000+00:00
-author: Jàam a Gën 3ème Mandat
+author: Jàmm a Gën 3ème Mandat
 avatar: "/img/avatar.png"
 authorlink: https://jammagen.site
 cover: "/img/avatar.png"
