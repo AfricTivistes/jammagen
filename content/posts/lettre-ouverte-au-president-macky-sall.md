@@ -15,10 +15,6 @@ tags:
 À Son Excellence Monsieur Macky Sall
 **Président de la République du Sénégal**
 
-<!--more-->
-
-[_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
-
 ## Pour le respect de la Constitution et de la parole donnée
 
 Nous, citoyens sénégalais, mouvements citoyens, organisations de la société civile, organisations politiques, vous invitons solennellement à ne pas présenter votre candidature à l'élection présidentielle de 2024, par respect pour la parole donnée et par respect pour l'interprétation claire et sans équivoque que vous n'avez cessé de donner de notre Constitution.
@@ -60,3 +56,7 @@ Monsieur le Président, de grâce respectez la **Constitution**, respectez **vot
 **Abdourahmane Sow,**
 
 **Mamadou Mbodj,**
+
+<!--more-->
+
+[_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
