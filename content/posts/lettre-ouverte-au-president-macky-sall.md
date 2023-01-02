@@ -35,7 +35,9 @@ Monsieur le Président, de grâce respectez la **Constitution**, respectez **vot
 
 ### Ont signé cette lettre ouverte :
 
-**AfrikaJom Center, Y'en A Marre,**
+**AfrikaJom Center,**
+
+**Y'en A Marre,**
 
 **AfricTivistes,**
 
