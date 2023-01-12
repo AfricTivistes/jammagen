@@ -33,32 +33,4 @@ Pour nous éviter une telle catastrophe dont les conséquences pourraient être 
 
 Monsieur le Président, de grâce respectez la **Constitution**, respectez **votre parole** ndax **« Jamm Gen troisième mandat ».**
 
-### Ont signé cette lettre ouverte :
-
-**AfrikaJom Center,**
-
-**Y'en A Marre,**
-
-**AfricTivistes,**
-
-**LEGS Africa,**
-
-**Ligue Sénégalaise de Défense des Droits de l'Homme,**
-
-**RADDHO,**
-
-**Forum Social Sénégalais,**
-
-**FRAPP,**
-
-**UDEN,**
-
-**Seydi Ababacar Sy Ndiaye,**
-
-**Abdourahmane Sow,**
-
-**Mamadou Mbodj,**
-
-<!--more-->
-
 [_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2022/12/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.pdf.pdf)
