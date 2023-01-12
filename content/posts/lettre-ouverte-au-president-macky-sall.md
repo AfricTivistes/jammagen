@@ -33,4 +33,4 @@ Pour nous éviter une telle catastrophe dont les conséquences pourraient être 
 
 Monsieur le Président, de grâce respectez la **Constitution**, respectez **votre parole** ndax **« Jamm Gen troisième mandat ».**
 
-[_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2023/01/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.docx-2.pdf "Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall")
+[_Télécharger_](https://update.africtivistes.org/wp-content/uploads/2023/01/Lettre-ouverte-Societe-Civile-a-Son-Excellence-Monsieur-Macky-Sall.docx-2.pdf "Lettre ouverte Société Civile à Son Excellence Monsieur Macky Sall")
