@@ -4,7 +4,7 @@ date: 2022-11-27T08:25:11.000+00:00
 lastmod: 
 author: Jàmm a Gën 3ème Mandat
 avatar: "/img/avatar.png"
-authorlink: https://jammagen.site
+authorlink: https://www.jammgen3mandats.com/posts/lettre-ouverte-au-president-macky-sall/
 cover: "/img/avatar.png"
 categories:
 - Organisation
