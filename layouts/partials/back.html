@@ -5,10 +5,10 @@
   <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
     <article class="ui segment">
       <h3 class="ui header">Signez la lettre ouverte</h3>
-      <form class="email-form" name="tributemessage" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+      <form class="email-form" name="tributemessage" method="POST" data-netlify="true">
         <label for="tribute">Message<span>*</span></label>
         <div>
-          <textarea rows="4" cols="35" name="tribute" style="width: 100%;" id="tribute" required></textarea>
+          <textarea rows="4" cols="35" name="tribute" style="width: 100%;" id="tribute" ></textarea>
         </div>
         <div>
           <label for="organisation">Nom</label>
@@ -16,7 +16,7 @@
         </div>
         <div>
           <label for="author">Email ou Telephone</label>
-          <input type="text" name="author" style="width: 100%;" placeholder="optionnel" id="author" />
+          <input type="text" name="author" style="width: 100%;" placeholder="obligatoire" id="author" required/>
         </div>
         <label for="facebook">Pays</label>
         <div>
@@ -303,9 +303,9 @@
             </select>
           <button class="ui label green" type="submit">Envoyer</button>
         </div>
-        <!-- <div>
+        <div>
           <div data-netlify-recaptcha="true"></div>
-        </div> -->
+        </div>
       </form>
       <h3 class="ui header">Partagez</h3>
       {{ partial "share.html" . }}
