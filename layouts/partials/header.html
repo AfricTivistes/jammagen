@@ -13,7 +13,7 @@
       <div class="sub header">
         {{- .Site.Params.motto -}}
         {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
-        <div><strong>{{len $paginator}}</strong> personnes ont signé</div>
+        <h2><span><strong>{{len $paginator}}</strong> personnes ont signé</h2>
         <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
           Signer cette lettre
         </a>
