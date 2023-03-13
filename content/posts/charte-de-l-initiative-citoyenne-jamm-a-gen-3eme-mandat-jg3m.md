@@ -2,11 +2,11 @@
 author = "Jàmm a Gën 3ème Mandat"
 authorlink = "https://www.jammgen3mandats.com"
 avatar = "/img/avatar-1.png"
-categories = ["Organisation"]
+categories = []
 cover = "/img/avatar-1.png"
 date = 2023-02-01T00:00:00Z
 lastmod = ""
-tags = []
+tags = ["Charte de l’initiative citoyenne"]
 title = "CHARTE DE L’INITIATIVE CITOYENNE JAMM A GËN 3ème MANDAT (JG3M)"
 
 +++
