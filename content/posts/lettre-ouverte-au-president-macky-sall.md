@@ -9,7 +9,7 @@ cover: "/img/avatar.png"
 categories:
 - Organisation
 tags:
-- Lettre ouverte Société Civile
+- Communiquer
 
 ---
 À Son Excellence Monsieur Macky Sall
