@@ -6,7 +6,7 @@ categories = ["Organisation"]
 cover = "/img/avatar-1.png"
 date = 2023-02-01T00:00:00Z
 lastmod = ""
-tags = ["Charte de jàmm a gën"]
+tags = []
 title = "CHARTE DE L’INITIATIVE CITOYENNE JAMM A GËN 3ème MANDAT (JG3M)"
 
 +++
