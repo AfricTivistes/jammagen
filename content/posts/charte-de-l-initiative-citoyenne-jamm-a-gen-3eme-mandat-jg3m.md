@@ -2,7 +2,7 @@
 author = "Jàmm a Gën 3ème Mandat"
 authorlink = "https://www.jammgen3mandats.com"
 avatar = "/img/avatar-1.png"
-categories = []
+categories = ["Organisation"]
 cover = "/img/avatar-1.png"
 date = 2023-02-01T00:00:00Z
 lastmod = ""
