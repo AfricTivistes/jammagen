@@ -1,24 +1,64 @@
 <header class="ui basic very padded segment dream-header">
-  <div class="ui small circular image">
-    {{ if isset .Site.Params "avatar" }}
-    <a class="dream-flip-toggle" href="/">
-      <img src="{{ .Site.Params.avatar | relURL }}" />
-    </a>
-    {{ end }}
-  </div>
-
-  <div class="content">
-    <h1 class="ui medium header">
-      {{- if .Site.Params.headerTitle -}}{{ .Site.Params.headerTitle }}{{ else }}{{ .Site.Params.author }}{{ T "blogAlias" }}{{- end -}}
-      <div class="sub header">
-        {{- .Site.Params.motto -}}
-        {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
-        <div><strong>{{len $paginator}}</strong> personnes ont signé</div>
-        <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
-          Signer cette lettre
+  <div style="display: flex; flex-direction: row;">
+    <div style="flex: 1;">
+      <script>
+        // Fonction pour mettre à jour le compte à rebours
+        function updateCountdown() {
+          // Date d'arrivée du compte à rebours
+          var arrivalDate = new Date("February 25, 2024 00:00:00").getTime();
+          // Date et heure actuelles
+          var now = new Date().getTime();
+          // Calcul du temps restant en millisecondes
+          var remainingTime = arrivalDate - now;
+          // Calcul des jours, heures, minutes et secondes restants
+          var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+          // Affichage des jours, heures, minutes et secondes dans des éléments HTML
+          document.getElementById("days").innerHTML = days + " jours";
+          document.getElementById("hours").innerHTML = hours + " heures";
+          document.getElementById("minutes").innerHTML = minutes + " minutes";
+          document.getElementById("seconds").innerHTML = seconds + " secondes";
+        }
+        // Mise à jour du compte à rebours toutes les secondes
+        setInterval(updateCountdown, 1000);
+      </script>
+    </head>
+    <body>
+      <img src="/img/mackysall.png" alt="Description alternative de l'image">
+      <h3>Compte à rebours jusqu'au 25 février 2024
+        <p>Il reste : 
+      <a id="days" ></a>
+      <a id="hours"></a>
+      <a id="minutes"></a>
+      <a id="seconds"></a> </p> </h3>
+    </div>
+    <div style="flex: 0,5;">
+    </div>
+    <div style="flex: 1;">
+      <div class="ui small circular image">
+        {{ if isset .Site.Params "avatar" }}
+        <a class="dream-flip-toggle" href="/">
+          <img src="{{ .Site.Params.avatar | relURL }}" />
         </a>
+        {{ end }}
       </div>
-    </h1>
+      
+      <div class="content">
+        <h1 class="ui medium header">
+          {{- if .Site.Params.headerTitle -}}{{ .Site.Params.headerTitle }}{{ else }}{{ .Site.Params.author }}{{ T "blogAlias" }}{{- end -}}
+          <div class="sub header">
+            {{- .Site.Params.motto -}}
+            {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
+            <!-- <h2><span ><strong>{{len $paginator}}</strong> personnes ont signé</h2> -->
+            <h2><span style="color:green;"><strong>{{len $paginator}}</strong> personnes ont signé</span></h2>
+            <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
+              Signer cette lettre
+            </a>
+          </div>
+        </h1>
+    </div>
 
     <article class="ui horizontal list">
       {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
@@ -45,5 +85,6 @@
     {{ end }}
     </article>
     {{ end }}
+  </div>
   </div>
 </header>
