@@ -7,7 +7,7 @@ avatar: "/img/avatar.png"
 authorlink: https://www.jammgen3mandats.com/posts/lettre-ouverte-au-president-macky-sall/
 cover: "/img/avatar.png"
 categories:
-- Organisation
+- Communiqué
 tags:
 - Lettre ouverte Société Civile
 
