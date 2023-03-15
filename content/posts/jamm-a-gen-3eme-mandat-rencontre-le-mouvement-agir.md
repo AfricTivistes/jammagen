@@ -15,4 +15,4 @@ Dans l'optique de la mise sur pied d'un large front des forces vives contre la 3
 
 Une délégation de la plateforme composée de Mamadou MBODJ, Souleymane GUEYE et Aliou SANE à été reçue par le président Thierno BOCOUM. Le mouvement AGIR à marqué son adhésion à l'initiative.
 
-![](/img/330968166_903026164153281_8722007663832618734_n.jpg)
+![](/img/330968166_903026164153281_8722007663832618734_n.jpg)![](/img/330910014_564014312424252_3431242566921200820_n.jpg)
