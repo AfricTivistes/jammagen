@@ -1,6 +1,7 @@
-<header class="ui basic very padded segment dream-header">
+<header class="ui basic very segment dream-header">
   <div style="display: flex; flex-direction: row;">
     <div style="flex: 1;">
+      
       <script>
         // Fonction pour mettre à jour le compte à rebours
         function updateCountdown() {
@@ -16,27 +17,31 @@
           var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
           var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
           // Affichage des jours, heures, minutes et secondes dans des éléments HTML
-          document.getElementById("days").innerHTML = days + " jours";
-          document.getElementById("hours").innerHTML = hours + " heures";
-          document.getElementById("minutes").innerHTML = minutes + " minutes";
-          document.getElementById("seconds").innerHTML = seconds + " secondes";
+          document.getElementById("days").innerHTML = days + " Jours";
+          document.getElementById("hours").innerHTML = hours + " Heures";
+          document.getElementById("minutes").innerHTML = minutes + " Minutes";
+          document.getElementById("seconds").innerHTML = seconds + " Secondes";
         }
         // Mise à jour du compte à rebours toutes les secondes
         setInterval(updateCountdown, 1000);
       </script>
     </head>
     <body>
-      <img src="/img/mackysall.png" alt="Description alternative de l'image">
-      <h3>Compte à rebours jusqu'au 25 février 2024
-        <p>Il reste : 
-      <a id="days" ></a>
-      <a id="hours"></a>
-      <a id="minutes"></a>
-      <a id="seconds"></a> </p> </h3>
+      <center>
+        <img src="/img/mackysall.png" alt="Description alternative de l'image">
+        <h3>Compte à rebours jusqu'au <br>25 février 2024. Il reste :
+        <p>
+          <a id="days"></a><br>
+          <a id="hours"></a><br>
+          <a id="minutes"></a><br>
+          <a id="seconds"></a>
+        </p></h3>
+      </center>
     </div>
     <div style="flex: 0,5;">
     </div>
     <div style="flex: 1;">
+      <center>
       <div class="ui small circular image">
         {{ if isset .Site.Params "avatar" }}
         <a class="dream-flip-toggle" href="/">
@@ -52,29 +57,47 @@
             {{- .Site.Params.motto -}}
             {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
             <!-- <h2><span ><strong>{{len $paginator}}</strong> personnes ont signé</h2> -->
-            <h2><span style="color:green;"><strong>{{len $paginator}}</strong> personnes ont signé</span></h2>
-            <a class="dream-flip-toggle ui label green" style="margin: 0;" href="#">
+            <h1><span style="color:green;"><strong>{{len $paginator}}</strong> </br> personnes ont signé</h1>
+            <a class="dream-flip-toggle ui label green" style="margin: 0; font-size: 20px; font-weight: bold;" href="#">
               Signer cette lettre
-            </a>
+            </a>            
           </div>
         </h1>
+        
     </div>
 
-    <article class="ui horizontal list">
-      {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
-      <a class="item" href="{{ "posts" | relLangURL }}">
-        <i class="archive icon" title="{{ T "archives" }}"></i>
-      </a>
-      {{ end }}
-      <a class="item" href="{{ "categories" | relLangURL }}">
-        <i class="th list icon" title="{{ T "allCategories" }}"></i>
-      </a>
-      <a class="item" href="{{ "tags" | relLangURL }}">
-        <i class="tags icon" title="{{ T "allTags" }}"></i>
-      </a>
-    </article>
+    <div class="category-list">
+      <ul>
+        <article class="ui horizontal list">
+          {{ if gt (len (where .Site.RegularPages "Section" "==" "posts")) 0 }}
+          <a class="item" href="{{ "posts" | relLangURL }}">
+            <i class="archive icon" title="{{ T "archives" }}"></i>
+          </a>
+          {{ end }}
+          <a class="item" href="{{ "categories" | relLangURL }}">
+            <i class="th list icon" title="{{ T "allCategories" }}"></i>
+          </a>
+          <a class="item" href="{{ "tags" | relLangURL }}">
+            <i class="tags icon" title="{{ T "allTags" }}"></i>
+          </a>
+        </article>
+      </center>
+        <!-- {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+          {{ $url := "/categories/" | urlize | relLangURL }}
+          <li class="category-item"><strong><a href="{{ $url }}{{ $name | urlize | relLangURL }}">{{ $name }}</a></strong> 
+            ({{ len $taxonomy }})
+          </li>
+        {{ end }} -->
+      </ul>
+    </div>
+    
+    <style>
+      .category-item {
+        font-size: 1.2rem; /* ajustez la taille du texte ici */
+      }
+    </style>
 
-    {{ if .Site.Taxonomies.tags }}
+    <!-- {{ if .Site.Taxonomies.tags }}
     <article class="dream-tags">
     {{ range $name, $_ := .Site.Taxonomies.tags }}
       {{ $link := printf "/tags/%s/" $name | urlize | relLangURL }}
@@ -84,7 +107,17 @@
       </a>
     {{ end }}
     </article>
-    {{ end }}
+    {{ end }} -->
+  </div>
+  <div style="flex: 0,5;">
+    {{ range .Site.Taxonomies.categories }}
+<h2>{{ .Page.Title }}</h2>
+<ul>
+  {{ range .Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
   </div>
   </div>
 </header>
