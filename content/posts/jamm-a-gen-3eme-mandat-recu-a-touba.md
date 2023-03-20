@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/319627102_1632776443820020_8142979992301369104_n.jpg"
 date = 2022-12-15T00:00:00Z
 lastmod = ""
-tags = ["JÀMM A GËN 3ÈME MANDAT REÇU A TOUBA "]
+tags = ["A Touba"]
 title = "Jàmm a Gën 3ème Mandat reçu à Touba"
 
 +++
