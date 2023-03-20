@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/332105936_3402199613396548_4872447251445019874_n.jpg"
 date = 2023-02-20T00:00:00Z
 lastmod = ""
-tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE Mr Abdoul MBAYE"]
+tags = ["Jàmm a Gën 3ème Mandat rencontre Mr Abdoul MBAYE"]
 title = "Jàmm a Gën 3ème Mandat rencontre Mr Abdoul MBAYE"
 
 +++
