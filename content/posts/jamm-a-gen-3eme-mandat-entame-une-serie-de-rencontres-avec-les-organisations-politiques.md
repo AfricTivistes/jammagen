@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/avatar-1.png"
 date = 2023-02-13T00:00:00Z
 lastmod = ""
-tags = ["🚨JÀMM A GËN 3ÈME MANDAT ENTAME UNE SÉRIE DE RENCONTRES AVEC LES ORGANISATIONS POLITIQUES 🚨"]
+tags = ["avec les organisations politiques"]
 title = "Jàmm a Gën 3ème Mandat, avec les organisations politiques"
 
 +++
