@@ -7,7 +7,7 @@ cover = "/img/334439953_591158696248473_3243424901107160036_n.jpg"
 date = 2023-03-01T00:00:00Z
 lastmod = ""
 tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE Le Pr Mary Theuw NIANE"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE Le Pr Mary Theuw NIANE"
+title = "Jàmm a Gën 3ème Mandat rencontre Le Pr Mary Theuw NIANE"
 
 +++
 | JÀMM A GËN 3ÈME MANDAT RENCONTRE LA CLASSE POLITIQUE |
