@@ -7,7 +7,7 @@ cover = "/img/332578443_600164124814681_7357961943131268254_n.jpg"
 date = 2023-02-22T00:00:00Z
 lastmod = ""
 tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE La LD Debout"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE La LD Debout"
+title = "Jàmm a Gën 3ème Mandat rencontre La LD Debout"
 
 +++
 | JÀMM A GËN 3ÈME MANDAT RENCONTRE LA CLASSE POLITIQUE I
