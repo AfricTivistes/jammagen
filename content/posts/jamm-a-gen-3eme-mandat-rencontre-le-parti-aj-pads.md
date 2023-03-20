@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/334097838_752142342946629_3607107601186466767_n.jpg"
 date = 2023-02-28T00:00:00Z
 lastmod = ""
-tags = ["Jàmm a Gën 3ème Mandat rencontre Le parti AJ/ PADS"]
+tags = ["Le parti AJ/ PADS"]
 title = "Jàmm a Gën 3ème Mandat rencontre Le parti AJ/ PADS"
 
 +++
