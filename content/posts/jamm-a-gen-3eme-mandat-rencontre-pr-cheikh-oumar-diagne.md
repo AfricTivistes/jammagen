@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/331325699_600149611448127_2027958288760623269_n.jpg"
 date = 2023-02-18T00:00:00Z
 lastmod = ""
-tags = ["Jàmm a Gën 3ème Mandat rencontre Pr Cheikh Oumar Diagne"]
+tags = ["Pr Cheikh Oumar Diagne"]
 title = "Jàmm a Gën 3ème Mandat rencontre Pr Cheikh Oumar Diagne"
 
 +++
