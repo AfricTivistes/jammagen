@@ -7,7 +7,7 @@ cover = "/img/332302141_596014625288344_6355582654759942087_n.jpg"
 date = 2023-02-20T00:00:00Z
 lastmod = ""
 tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE L'honorable député Pape Djibril Fall"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE L'honorable député Pape Djibril Fall"
+title = "Jàmm a Gën 3ème Mandat rencontre L'honorable député Pape Djibril Fall"
 
 +++
 | JÀMM A GËN 3ÈME MANDAT RENCONTRE LA CLASSE POLITIQUE |
