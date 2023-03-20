@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/331021490_500996322199223_5053266233019588240_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["Jàmm a Gën 3ème Mandat rencontre le CRD"]
+tags = ["Le CRD"]
 title = "Jàmm a Gën 3ème Mandat rencontre le CRD"
 
 +++
