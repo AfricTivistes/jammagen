@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/331064204_1735761503512606_4948770831837337886_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["  JÀMM A GËN 3ÈME MANDAT RENCONTRE Mme Aminata TOURÉ"]
+tags = ["Jàmm a Gën 3ème Mandat rencontre Mme Aminata TOURÉ"]
 title = "Jàmm a Gën 3ème Mandat rencontre Mme Aminata TOURÉ"
 
 +++
