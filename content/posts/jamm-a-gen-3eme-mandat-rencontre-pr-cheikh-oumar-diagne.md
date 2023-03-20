@@ -7,7 +7,7 @@ cover = "/img/331325699_600149611448127_2027958288760623269_n.jpg"
 date = 2023-02-18T00:00:00Z
 lastmod = ""
 tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE Pr Cheikh Oumar Diagne"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE Pr Cheikh Oumar Diagne"
+title = "Jàmm a Gën 3ème Mandat rencontre Pr Cheikh Oumar Diagne"
 
 +++
 Le Rassemblement pour la Vérité (RV) du Pr Cheikh Oumar Diagne marque son adhésion à la mise en place d'un large front des forces vives contre la 3ème candidature du président Macky SALL.
