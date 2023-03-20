@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/331072820_858012788611425_5012998087999402955_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["Jàmm a Gën 3ème Mandat rencontre le mouvement AGIR"]
+tags = ["Le mouvement AGIR"]
 title = "Jàmm a Gën 3ème Mandat rencontre le mouvement AGIR"
 
 +++
