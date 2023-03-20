@@ -7,7 +7,7 @@ cover = "/img/334966904_1280202855945705_6201913108117449116_n.jpg"
 date = 2023-03-08T00:00:00Z
 lastmod = ""
 tags = ["|JÀMM A GËN 3ÈME MANDAT REÇU PAR L'ARCHEVÊQUE DE DAKAR | L’Archevêque de Dakar Monseigneur Benjamin NDIAYE a reçu ce mercredi 8 mars 2023 une délégation de Jamm à Gen 3ème Mandat. La délégation a d’abord présenté l’initiative qui est avant tout une démarche de paix et de prévention. Elle a ensuite échangé avec cette éminente personnalité religieuse sur la situation politique nationale sous régionale et africaine. Son Excellence s’est félicitée de l’engagement citoyen, du souci de la protection du bien public et de la nécessité de cultiver la paix notés dans le discours de la délégation. Il a enfin prié pour la délégation et pour le Sénégal.  La délégation comptait Aisha Dabo de Africtivistes , Senghane Senghor de la Raddho, Denis Ndour de Ligue Senegalaise Des Droits Humains/section Kaffrine et Mamadou Mbodj, le Coordonnateur de Jàmm a Gën 3e mandat  #BuKoSaxJeem Ndax #JammaGen3eMandat"]
-title = "JÀMM A GËN 3ÈME MANDAT REÇU PAR L'ARCHEVÊQUE DE DAKAR "
+title = "Jàmm a Gën 3ème Mandat reçu par L'ARCHEVÊQUE DE DAKAR "
 
 +++
 |JÀMM A GËN 3ÈME MANDAT REÇU PAR L'ARCHEVÊQUE DE DAKAR |
