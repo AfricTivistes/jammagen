@@ -2,12 +2,12 @@
 author = "Jàmm a Gën 3ème Mandat"
 authorlink = ""
 avatar = "/img/331021490_500996322199223_5053266233019588240_n.jpg"
-categories = []
+categories = ["Actualités"]
 cover = "/img/331021490_500996322199223_5053266233019588240_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["📍JÀMM A GËN 3ÈME MANDAT RENCONTRE LE CRD✍🏾"]
-title = "📍JÀMM A GËN 3ÈME MANDAT RENCONTRE LE CRD✍🏾"
+tags = ["Le CRD"]
+title = "Jàmm a Gën 3ème Mandat rencontre le CRD"
 
 +++
 Après le mouvement AGIR, le Congrès de la Renaissance Démocratique (CRD) marque son adhésion à la mise en place d'un large front des forces vives contre la 3ème candidature du président Macky SALL.

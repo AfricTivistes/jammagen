@@ -6,8 +6,8 @@ categories = ["Actualités"]
 cover = "/img/331064204_1735761503512606_4948770831837337886_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["  JÀMM A GËN 3ÈME MANDAT RENCONTRE Mme Aminata TOURÉ"]
-title = " JÀMM A GËN 3ÈME MANDAT RENCONTRE Mme Aminata TOURÉ"
+tags = ["Mme Aminata TOURÉ"]
+title = "Jàmm a Gën 3ème Mandat rencontre Mme Aminata TOURÉ"
 
 +++
 Mme Aminata TOURÉ marque son adhésion à la mise en place d'un large front des forces vives contre la 3ème candidature du président Macky SALL.

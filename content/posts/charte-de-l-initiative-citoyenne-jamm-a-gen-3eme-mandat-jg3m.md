@@ -7,7 +7,7 @@ cover = "/img/avatar-1.png"
 date = 2023-02-01T00:00:00Z
 lastmod = ""
 tags = ["Charte de l’initiative citoyenne"]
-title = "CHARTE DE L’INITIATIVE CITOYENNE JAMM A GËN 3ème MANDAT (JG3M)"
+title = "Charte de l'initiative citoyenne Jàmm a Gën 3ème Mandat(JG3M)"
 
 +++
 ### **CHARTE DE L’INITIATIVE CITOYENNE JAMM A GËN 3ème MANDAT (JG3M)**

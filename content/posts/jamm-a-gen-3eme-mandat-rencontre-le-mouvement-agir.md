@@ -6,8 +6,8 @@ categories = ["Actualités"]
 cover = "/img/331072820_858012788611425_5012998087999402955_n.jpg"
 date = 2023-02-14T00:00:00Z
 lastmod = ""
-tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE LE MOUVEMENT AGIR"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE LE MOUVEMENT AGIR"
+tags = ["Le mouvement AGIR"]
+title = "Jàmm a Gën 3ème Mandat rencontre le mouvement AGIR"
 
 +++
 Dans l'optique de la mise sur pied d'un large front des forces vives contre la 3ème candidature du président Macky SALL, "Jàmm a Gën 3ème mandat" a entamé sa série de rencontres avec les organisations politiques.
