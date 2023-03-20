@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/jammagen.jpeg"
 date = 2022-12-07T00:00:00Z
 lastmod = ""
-tags = ["DÉMARRAGE DE LARGES CONCERTATIONS AVEC LES FORCES VIVES"]
+tags = ["Démarrage de larges concertation avec les forces vives"]
 title = "Démarrage de larges concertation avec les forces vives"
 
 +++
