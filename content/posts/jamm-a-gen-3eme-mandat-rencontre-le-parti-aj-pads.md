@@ -7,7 +7,7 @@ cover = "/img/334097838_752142342946629_3607107601186466767_n.jpg"
 date = 2023-02-28T00:00:00Z
 lastmod = ""
 tags = ["JÀMM A GËN 3ÈME MANDAT RENCONTRE Le parti AJ/ PADS"]
-title = "JÀMM A GËN 3ÈME MANDAT RENCONTRE Le parti AJ/ PADS"
+title = "Jàmm a Gën 3ème Mandat rencontre Le parti AJ/ PADS"
 
 +++
 | JÀMM A GËN 3ÈME MANDAT RENCONTRE LA CLASSE POLITIQUE
