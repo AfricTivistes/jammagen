@@ -6,7 +6,7 @@ categories = ["Actualités"]
 cover = "/img/331954265_556150546279001_3785306562877109715_n.jpg"
 date = 2023-02-18T00:00:00Z
 lastmod = ""
-tags = ["Jàmm a Gën 3ème Mandat rencontre la coalition Yewwi Askan Wi"]
+tags = ["La coalition Yewwi Askan Wi"]
 title = "Jàmm a Gën 3ème Mandat rencontre la coalition Yewwi Askan Wi"
 
 +++
