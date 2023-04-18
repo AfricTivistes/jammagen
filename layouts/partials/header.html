@@ -1,7 +1,6 @@
 <header class="ui basic very segment dream-header">
   <div style="display: flex; flex-direction: row;">
     <div style="flex: 1;">
-      
       <script>
         // Fonction pour mettre à jour le compte à rebours
         function updateCountdown() {
@@ -17,10 +16,10 @@
           var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
           var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
           // Affichage des jours, heures, minutes et secondes dans des éléments HTML
-          document.getElementById("days").innerHTML = days + " Jours";
-          document.getElementById("hours").innerHTML = hours + " Heures";
-          document.getElementById("minutes").innerHTML = minutes + " Minutes";
-          document.getElementById("seconds").innerHTML = seconds + " Secondes";
+          document.getElementById("days").innerHTML = days + " Jours:";
+          document.getElementById("hours").innerHTML = hours + " h:";
+          document.getElementById("minutes").innerHTML = minutes + " m:";
+          document.getElementById("seconds").innerHTML = seconds + " s";
         }
         // Mise à jour du compte à rebours toutes les secondes
         setInterval(updateCountdown, 1000);
@@ -29,18 +28,20 @@
     <body>
       <center>
         <img src="/img/mackysall.png" alt="Description alternative de l'image">
-        <h3>Compte à rebours jusqu'au <br>25 février 2024. Il reste :
-        <p>
-          <a id="days"></a><br>
-          <a id="hours"></a><br>
-          <a id="minutes"></a><br>
-          <a id="seconds"></a>
-        </p></h3>
+          <p>
+        <h3>Compte à rebours jusqu'au </br><span style="color: red;">25 février 2024</span>.</br> 
+          <p>
+            Il reste : 
+            <a id="days" style="font-size: 20px;"></a>
+            <a id="hours" style="font-size: 20px;"></a>
+            <a id="minutes" style="font-size: 20px;"></a>
+            <a id="seconds" style="font-size: 20px;"></a>
+          </p>
+        </h3>
+        
       </center>
     </div>
     <div style="flex: 0,5;">
-    </div>
-    <div style="flex: 1;">
       <center>
       <div class="ui small circular image">
         {{ if isset .Site.Params "avatar" }}
@@ -57,8 +58,12 @@
             {{- .Site.Params.motto -}}
             {{ $paginator := (where .Site.RegularPages "Type" "signature") }}
             <!-- <h2><span ><strong>{{len $paginator}}</strong> personnes ont signé</h2> -->
-            <h1><span style="color:green;"><strong>{{len $paginator}}</strong> </br> personnes ont signé</h1>
-            <a class="dream-flip-toggle ui label green" style="margin: 0; font-size: 20px; font-weight: bold;" href="#">
+              <br></br>
+              <div style="background-color: green; padding: 10px; color: white;">
+                <h1><strong>{{len $paginator}}</strong> Personnes ont signé</h1>
+              </div>
+              <p> </p>
+              <a class="dream-flip-toggle ui label " style="margin: 0; font-size: 20px; font-weight: bold;" href="#">
               Signer cette lettre
             </a>            
           </div>
@@ -90,13 +95,6 @@
         {{ end }} -->
       </ul>
     </div>
-    
-    <style>
-      .category-item {
-        font-size: 1.2rem; /* ajustez la taille du texte ici */
-      }
-    </style>
-
     <!-- {{ if .Site.Taxonomies.tags }}
     <article class="dream-tags">
     {{ range $name, $_ := .Site.Taxonomies.tags }}
@@ -109,15 +107,6 @@
     </article>
     {{ end }} -->
   </div>
-  <div style="flex: 0,5;">
-    {{ range .Site.Taxonomies.categories }}
-<h2>{{ .Page.Title }}</h2>
-<ul>
-  {{ range .Pages }}
-    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-  {{ end }}
-</ul>
-{{ end }}
-  </div>
+
   </div>
 </header>
