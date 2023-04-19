@@ -1,0 +1,18 @@
+<div style="background-color: #fff; padding: 20px;">
+  <header class="ui basi segment dream-header">
+    <div class="ui stackable grid container">
+      <div class="row">
+        {{ range .Site.Taxonomies.categories }}
+        <div class="four wide column">
+          <h2>{{ .Page.Title }}</h2>
+          <ul class="ui list">
+            {{ range .Pages }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </header>
+</div>
